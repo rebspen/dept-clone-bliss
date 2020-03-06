@@ -3,32 +3,36 @@
   margin: 0.5vw 4vw;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   color: black;
 }
 
-.content{
-  position:relative;
+.content {
+  position: relative;
   height: 100%;
 }
 
-.title{
+.title {
   font-size: 10vw;
   margin-left: 4vw;
   float: left;
 }
 
-.hd{
+.hd {
   position: absolute;
-  bottom:10vw;
-  right:10vw
+  bottom: 10vw;
+  right: 10vw;
 }
 
-.case{
+.case {
   margin-right: 4vw;
 }
 
-.header{
+.nav-link {
+  text-align: end;
+}
+
+.header {
   height: 100vh;
   background-image: url("/images/florensis.png");
   background-repeat: no-repeat;
@@ -37,7 +41,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .header{
-    height: 50vh
+  .header {
+    height: 50vh;
   }
 }

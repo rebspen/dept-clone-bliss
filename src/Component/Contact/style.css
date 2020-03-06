@@ -1,0 +1,33 @@
+.help{
+  font-family:'Teko', sans-serif ;
+  font-size: 60px;
+  text-align: left;
+}
+
+.name{
+  align-items: flex-start;
+}
+
+.btnBlue{
+  background-color: #1a18f7;
+  padding: 0.5em 2em;
+}
+
+input{
+  border: none;
+  border-bottom: 1px solid black ;
+  width:80%;
+}
+
+textarea{
+  border: none;
+  border-bottom: 1px solid black;
+  resize: none;
+  width:80%;
+}
+
+.required{
+  font-family: Arial;
+  font-size: 13px;
+  color: #ff2929;
+}

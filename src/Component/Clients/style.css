@@ -1,0 +1,22 @@
+.clients{
+  background-color: #f3f6f6;
+}
+
+.clients-title{
+  font-family: 'Teko', sans-serif;
+  font-size: 60px;
+  margin-top: 3vw;
+}
+
+.client-text{
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.logos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 3vw;
+  margin-left: 10%;
+}

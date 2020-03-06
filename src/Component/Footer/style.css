@@ -1,0 +1,43 @@
+.footer {
+  height: 60vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.top {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid blanchedalmond;
+}
+
+.linkft {
+  margin: 0.5em;
+  font-size: 18px;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Teko", sans-serif;
+}
+
+.bottom {
+  font-family: Arial;
+  font-size: 13px;
+  color: #808080;
+  width: 80%;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+}
