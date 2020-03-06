@@ -1,0 +1,12 @@
+body {
+  font-family: tekobold;
+}
+
+@font-face{
+  font-family: tekobold;
+  src: url(/Teko/Teko-Bold) format("TrueType")
+}
+
+code {
+}
+
