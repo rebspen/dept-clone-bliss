@@ -1,0 +1,5 @@
+.mainContent{
+  margin: 0.5vw 4vw;
+  display: flex;
+  flex-wrap: wrap;
+}

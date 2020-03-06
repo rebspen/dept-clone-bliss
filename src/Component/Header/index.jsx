@@ -5,22 +5,58 @@ import "./style.css";
 
 function Header(props) {
   return (
-    <Jumbotron>
-      <Navbar expand="">
-        <Navbar.Brand href="#home">DEPT</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-      <h1>WORK</h1>
-      <Link to="/">
-        <Button variant="primary">View Case</Button>
-      </Link>
-    </Jumbotron>
+    <div class="header">
+      <nav className="navbar bg-none navbar-light">
+        <a className="navbar-brand" href="#">
+          DEPT
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsingNavbar"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="navbar-collapse collapse" id="collapsingNavbar">
+          <ul className="navbar-nav">
+            <li className="nav-item active">
+              <a className="nav-link" href="#">
+                Home <span className="sr-only">Home</span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="//codeply.com">
+                Codeply
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#myAlert" data-toggle="collapse">
+                Wow
+              </a>
+            </li>
+          </ul>
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                href=""
+                data-target="#myModal"
+                data-toggle="modal"
+              >
+                About
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div className="content">
+      <h1 className="title">WORK</h1>
+      <button type="button" className="btn btn-dark hd">
+        See Case
+      </button>
+      </div>
+    </div>
   );
 }
 

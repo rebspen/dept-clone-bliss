@@ -1,28 +1,43 @@
-.Navbar{
+.navbar {
   border-bottom: 1px solid black;
+  margin: 0.5vw 4vw;
 }
 
-.navbar-header {
-  float: none;
+.navbar-toggler{
+  color: black;
 }
-.navbar-toggle {
-  display: block;
+
+.content{
+  position:relative;
+  height: 100%;
 }
-.navbar-collapse {
-  border-top: 1px solid transparent;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+
+.title{
+  font-size: 10vw;
+  margin-left: 4vw;
+  float: left;
 }
-.navbar-collapse.collapse {
-  display: none!important;
+
+.hd{
+  position: absolute;
+  bottom:10vw;
+  right:10vw
 }
-.navbar-nav {
-  float: none!important;
-  margin: 7.5px -15px;
+
+.case{
+  margin-right: 4vw;
 }
-.navbar-nav>li {
-  float: none;
+
+.header{
+  height: 100vh;
+  background-image: url("/images/florensis.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
 }
-.navbar-nav>li>a {
-  padding-top: 10px;
-  padding-bottom: 10px;
+
+@media only screen and (max-width: 600px) {
+  .header{
+    height: 50vh
+  }
 }

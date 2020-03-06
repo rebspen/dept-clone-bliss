@@ -1,0 +1,27 @@
+.card {
+  margin: 1.5%;
+  text-align: left;
+}
+
+.card-title {
+  font-family: Arial;
+  color: #939393;
+  font-size: 15px;
+}
+
+.card-text {
+  color: #272727;
+  font-size: 30px;
+  font-family: 'Teko', sans-serif;
+}
+
+.link{
+  color: #1a18f7;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: tekoregular;
+  src: url(/Teko/Teko-Regular) format("TrueType");
+}
