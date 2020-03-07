@@ -12,3 +12,13 @@
   padding: none;
 
 }
+
+/* mobile styling */
+
+@media only screen and (max-width: 600px) {
+.searchbar{
+  display: none;
+}
+
+
+}

@@ -24,8 +24,6 @@ margin-bottom: -10px;
   outline: none;
 }
 
-
-
 .title {
   font-size: 25vw;
   margin-left: 4vw;
@@ -63,8 +61,57 @@ margin-bottom: -10px;
   background-size: cover;
 }
 
+.headermobile {
+  display: none;
+}
+
+.linkbtn {
+  text-decoration: none;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+/* mobile styling */
+
 @media only screen and (max-width: 600px) {
-  .header {
-    height: 50vh;
+  .header{
+    display: none;
   }
+
+  .headermobile {
+    display: initial;
+  }
+
+  .title{
+    font-size: 50vw;
+    align-self: center;
+    margin-top: 10%;
+  }
+
+  .content{
+    height: 50vh;
+    background-image: url("/images/florensis.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 -20px 10% -20px;
+  }
+
+  .navbar {
+    border-bottom: none;
+  }
+
+
+}
+
+
+.hdmobile {
+  color: white;
+  background-color: black;
+  padding: 1em 2em;
+  font-family: Arial;
+  font-size: 15px;
+  border: none;
+  width: 80vw;
 }

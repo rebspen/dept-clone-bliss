@@ -1,6 +1,11 @@
 body {
   font-family:  "Teko", sans-serif;
   margin: 0;
+  width: 100%;
+}
+
+html{
+  width: 100%;
 }
 
 
