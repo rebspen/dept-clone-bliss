@@ -4,6 +4,53 @@ import "./style.css"
 
 function CaseLargeLeft() {
   return (
+    <div>
+
+    {/* on mobile */}
+    <div className="caseLargeMobile">
+
+    <Link className="link" to = "/">
+    <div className="card mt-3 mb-3 pb-1" style={{width: "100%", border:"none", borderRadius: "0px",  borderTop: "1px solid #a3a3a3"}}>
+      <div className="card-body">
+        <h5 className="card-title">Arla</h5>
+        <p className="card-text" style={{ fontSize: "24px"}}>
+          Swipe to find your next holiday destination
+        </p>
+      
+      </div>
+    </div>
+    </Link>
+
+    <Link className="link" to = "/"> 
+    <div className="card mt-3 mb-3 pb-4" style={{width: "100%", border:"none", borderRadius: "0px", borderTop: "1px solid #a3a3a3", borderBottom: "1px solid #a3a3a3" }}>
+      <div className="card-body">
+        <h5 className="card-title">Arla</h5>
+        <p className="card-text" style={{ fontSize: "24px"}}> 
+          Swipe to find your next holiday destination
+        </p>
+      </div>
+    </div>
+    </Link>
+
+    <Link className="link" to = "/"> 
+    <div className="card" style={{width: "100%", border:"none", borderRadius: "0px"}}>
+      <img src="/images/florensis.png" className="card-img-top imglrg" alt="..." />
+      <div className="card-body">
+        <h5 className="card-title">Arla</h5>
+        <p className="card-text">
+          Swipe to find your next holiday destination
+        </p>
+      </div>
+    </div>
+    </Link>
+
+</div>
+
+
+
+
+{/* on desktop */}
+<div className="caseLargeDesktop">
     <div className="caseLarge mt-3 mb-3" style={{width: "100%"}}>
 
     <div className="card" style={{width: "60%", border:"none", borderRadius: "0px"}}>
@@ -44,6 +91,8 @@ function CaseLargeLeft() {
     </div>
 
     </div>
+    </div>
+</div>
   );
 }
 

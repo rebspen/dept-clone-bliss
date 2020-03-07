@@ -32,3 +32,23 @@ textarea{
   font-size: 13px;
   color: #ff2929;
 }
+
+.contactMobile{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .contactDesktop{
+    display: none;
+  }
+
+  .contactMobile{
+    display: initial;
+  }
+
+  .help{
+    font-family:'Teko', sans-serif ;
+    font-size: 30px;
+    text-align: center;
+  }
+}

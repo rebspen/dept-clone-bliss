@@ -85,8 +85,9 @@ margin-bottom: -10px;
 
   .title{
     font-size: 50vw;
-    align-self: center;
+    text-align: center;
     margin-top: 10%;
+    margin-left: -5px;
   }
 
   .content{
@@ -113,5 +114,5 @@ margin-bottom: -10px;
   font-family: Arial;
   font-size: 15px;
   border: none;
-  width: 80vw;
+  width: 90vw;
 }

@@ -5,7 +5,7 @@ function Searchbar(props) {
   return (
 <div>
 <div class="container mobilesearchbar">
-      <div class="row m-3 mt-4 d-flex flex-column justify-content-start search">
+      <div class="row ml-4 d-flex flex-column justify-content-start search">
       <div class="d-flex flex-row">
       <p>show me</p>
         <form class="col-md-0">

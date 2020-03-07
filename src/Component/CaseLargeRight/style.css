@@ -26,3 +26,18 @@
   font-size: 14px;
 }
 
+
+.caseLargeMobileRight{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .caseLargeDesktopRight{
+    display: none;
+  }
+
+  .caseLargeMobileRight{
+    display: initial;
+  }
+}
+

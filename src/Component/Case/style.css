@@ -21,3 +21,24 @@
   font-size: 14px;
 }
 
+.casemobile{
+  display: none;
+}
+
+/* mobile styling */
+
+@media only screen and (max-width: 600px) {
+  .casedesktop{
+    display: none;
+  }
+
+  .casemobile{
+    display: initial;
+  }
+
+  .card {
+    margin: none;
+    text-align: left;
+  }
+
+}  

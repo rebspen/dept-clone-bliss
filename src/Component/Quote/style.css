@@ -12,3 +12,31 @@
   text-align: left;
   margin: 0 9rem;
 }
+
+.quoteMobile{
+  display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .quoteDesktop{
+    display: none;
+  }
+
+  .quoteMobile{
+    display: initial;
+  }
+
+  .quote{
+    font-size: 26px;
+    text-align: left;
+    margin: 2rem 1rem;
+  }
+
+  .client{
+    font-family: Arial;
+    font-size: 13px;
+    text-align: left;
+    margin: 2rem 1rem;
+  }
+}

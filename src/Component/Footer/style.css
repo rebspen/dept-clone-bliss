@@ -18,18 +18,18 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 1px solid blanchedalmond;
+  border-bottom: 1px solid #a3a3a3;
 }
 
 .linkft {
   margin: 0.5em;
   font-size: 18px;
   text-decoration: none;
-  color: aliceblue;
+  color:white;
   font-family: "Teko", sans-serif;
 }
 
-.social{
+.social {
   width: 10px;
 }
 
@@ -44,4 +44,57 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    display: none;
+  }
+
+  .top {
+    width: 90%;
+    flex-direction: row;
+    align-items: space-between;
+  }
+
+  .footerMobile {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .list {
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 1em;
+  }
+
+  .linkft {
+    font-size: 4vh;
+    text-align: left;
+    margin: 1em 0 0 0;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 4vh;
+    margin: 1em;
+  }
+
+  .bottom{
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;  
+    padding: 0;
+  }
 }
