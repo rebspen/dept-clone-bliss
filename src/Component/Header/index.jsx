@@ -13,7 +13,7 @@ function Header(props) {
           DEPT
         </a>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler positionBtn"
           type="button"
           data-toggle="collapse"
           data-target="#collapsingNavbar"
@@ -58,7 +58,7 @@ function Header(props) {
         <h1 className="title">WORK</h1>
       </div>
       <button type="button" className="hdmobile">
-          <Link to ="#">VIEW CASE</Link>
+          <Link to ="#"> <p className="linkbtn">VIEW CASE</p></Link>
         </button>
       </div>
     </div>

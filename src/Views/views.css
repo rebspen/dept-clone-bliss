@@ -3,3 +3,8 @@
   display: flex;
   flex-wrap: wrap;
 }
+.home{
+  background-color: black;
+  height: 200vh;
+}
+

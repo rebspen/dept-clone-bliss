@@ -1,17 +1,11 @@
-
-.search{
+.logoHome{
   font-family: "Teko", sans-serif;
-  font-size: 30px;
-  color: #a3a3a3;
+  font-size: 40px;
+  color: white;
+  padding: 3vw 10vw;
+  padding-bottom: 0;
 }
 
-.select{
-  border: none;
-  background: none;
-  color: black;
-  padding: none;
-
-}
 
 .mobilesearchbar{
   display: none;
@@ -19,7 +13,7 @@
 
 /* mobile styling */
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 600px) {
 .searchbar{
   display: none;
 }

@@ -29,14 +29,14 @@ function Searchbar(props) {
 
     <div class="container searchbar">
       <div class="row m-3 mt-4 d-flex flex-row justify-content-end search">
-      <p>show me ..</p>
+      <p>show me</p>
         <form class="col-md-2">
-          <select class="select">
+          <select class="select" >
             <option>all work</option>
             <option>videos</option>
           </select>
         </form>
-        <p>in ..</p>
+        <p>in</p>
         <form class="col-md-2">
           <select class="select">
             <option>all industries</option>
