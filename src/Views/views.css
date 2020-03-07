@@ -8,3 +8,17 @@
   height: 200vh;
 }
 
+.homeMenu{
+  width:75%;
+}
+
+@media only screen and (max-width: 600px) {
+  .homeMenu{
+    width:90%;
+  }
+  .home{
+    background-color: black;
+    height: 110vh;
+  }
+
+}

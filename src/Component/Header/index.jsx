@@ -24,31 +24,19 @@ function Header(props) {
         <div className="navbar-collapse collapse z" id="collapsingNavbar">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
-                Home <span className="sr-only">Home</span>
-              </a>
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="//codeply.com">
-                xxxxx
-              </a>
+              <Link className="nav-link" to="/">
+               one
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#myAlert" data-toggle="collapse">
-                xxxxx
-              </a>
-            </li>
-          </ul>
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                href=""
-                data-target="#myModal"
-                data-toggle="modal"
-              >
-                xxxxx
-              </a>
+              <Link className="nav-link" href="/" data-toggle="collapse">
+              two
+              </Link>
             </li>
           </ul>
         </div>
@@ -82,31 +70,19 @@ function Header(props) {
         <div className="navbar-collapse collapse z" id="collapsingNavbar">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
-                Home <span className="sr-only">Home</span>
-              </a>
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="//codeply.com">
-                xxxxx
-              </a>
+              <Link className="nav-link" to="/">
+              one
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#myAlert" data-toggle="collapse">
-                xxxxx
-              </a>
-            </li>
-          </ul>
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                href=""
-                data-target="#myModal"
-                data-toggle="modal"
-              >
-                xxxxx
-              </a>
+              <Link className="nav-link" to="/" data-toggle="collapse">
+                two
+              </Link>
             </li>
           </ul>
         </div>

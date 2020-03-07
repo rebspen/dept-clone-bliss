@@ -7,7 +7,7 @@ function HomeMenu() {
     <div>
       <ul className="menuNav">
        <li className="menu-item ">HOME</li>
-        <Link to="/work"><li className="menu-item">WERK</li></Link>
+       <li className="menu-item"><Link to="/work" style={{ textDecoration: 'none', color: "white" }}>WERK</Link></li>
         <li className="menu-item">OVER</li>
         <li className="menu-item">DIENSTEN</li>
         <li className="menu-item">PARTNERS</li>

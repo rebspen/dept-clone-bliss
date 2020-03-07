@@ -13,7 +13,7 @@ function Home() {
         <HomeCountries />
         <HomeSocial />
       </div>
-      <div style={{width:"75%"}}>
+      <div className="homeMenu">
         <HomeMenu />
       </div>
       </div>

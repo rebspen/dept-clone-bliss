@@ -8,10 +8,9 @@
   margin: 0;
   border-bottom: 1px solid grey;
   text-align: right;
-  text-decoration: none;
 }
 
-.menu-item:active{
+.werk{
   text-decoration: none;
 }
 
@@ -19,22 +18,12 @@
   font-size: 10vw;
 }
 
-.mobilesearchbar{
-  display: none;
-}
-
 
 
 /* mobile styling */
 
 @media only screen and (max-width: 600px) {
-.searchbar{
-  display: none;
+.menu-item{
+  font-size: 10vw;
 }
-
-.mobilesearchbar{
-  display: initial;
-}
-
-
 }

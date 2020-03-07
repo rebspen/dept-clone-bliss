@@ -19,22 +19,12 @@
   font-size: 4vw;
 }
 
-.mobilesearchbar{
-  display: none;
-}
-
 
 
 /* mobile styling */
 
 @media only screen and (max-width: 600px) {
-.searchbar{
+.PrimaryNav{
   display: none;
 }
-
-.mobilesearchbar{
-  display: initial;
-}
-
-
 }
