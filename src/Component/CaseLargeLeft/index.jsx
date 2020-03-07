@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css"
 
-function CaseLargeLeft() {
+function CaseLargeLeft(props) {
   return (
     <div className="topcaseleft">
 
@@ -12,9 +12,9 @@ function CaseLargeLeft() {
     <Link className="link" to = "/">
     <div className="card mt-3 mb-3 pb-1" style={{width: "100%", border:"none", borderRadius: "0px",  borderTop: "1px solid #a3a3a3"}}>
       <div className="card-body">
-        <h5 className="card-title">Arla</h5>
+        <h5 className="card-title">{props.val.client2}</h5>
         <p className="card-text" style={{ fontSize: "24px"}}>
-          Swipe to find your next holiday destination
+        {props.val.title2}
         </p>
       
       </div>
@@ -24,9 +24,9 @@ function CaseLargeLeft() {
     <Link className="link" to = "/"> 
     <div className="card mt-3 mb-3 pb-4" style={{width: "100%", border:"none", borderRadius: "0px", borderTop: "1px solid #a3a3a3", borderBottom: "1px solid #a3a3a3" }}>
       <div className="card-body">
-        <h5 className="card-title">Arla</h5>
+        <h5 className="card-title">{props.val.client3}</h5>
         <p className="card-text" style={{ fontSize: "24px"}}> 
-          Swipe to find your next holiday destination
+        {props.val.title3}
         </p>
       </div>
     </div>
@@ -34,11 +34,11 @@ function CaseLargeLeft() {
 
     <Link className="link" to = "/"> 
     <div className="card" style={{width: "100%", border:"none", borderRadius: "0px"}}>
-      <img src="/images/florensis.png" className="card-img-top imglrg" alt="..." />
+      <img src= {props.val.image} className="card-img-top imglrg" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">Arla</h5>
+        <h5 className="card-title">{props.val.client}</h5>
         <p className="card-text">
-          Swipe to find your next holiday destination
+        {props.val.title}
         </p>
       </div>
     </div>
@@ -54,11 +54,11 @@ function CaseLargeLeft() {
     <div className="caseLarge mt-3 mb-3" style={{width: "100%"}}>
 
     <div className="card" style={{width: "60%", border:"none", borderRadius: "0px"}}>
-      <img src="/images/florensis.png" className="card-img-top imglrg" alt="..." />
+      <img src={props.val.image} className="card-img-top imglrg" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">Arla</h5>
+        <h5 className="card-title">{props.val.client}</h5>
         <p className="card-text">
-          Swipe to find your next holiday destination
+        {props.val.title}
         </p>
         <Link className="link" to = "/"> &#9658; VIEW CASE</Link>
       </div>
@@ -69,9 +69,9 @@ function CaseLargeLeft() {
 
     <div className="card mt-3 mb-3" style={{width: "100%", border:"none", borderRadius: "0px",  borderTop: "1px solid #a3a3a3"}}>
       <div className="card-body">
-        <h5 className="card-title">Arla</h5>
+        <h5 className="card-title">{props.val.client2}</h5>
         <p className="card-text" style={{ fontSize: "24px"}}>
-          Swipe to find your next holiday destination
+        {props.val.title2}
         </p>
         <Link className="link" to = "/"> &#9658; VIEW CASE</Link>
       </div>
@@ -80,9 +80,9 @@ function CaseLargeLeft() {
 
     <div className="card mt-3 mb-3" style={{width: "100%", border:"none", borderRadius: "0px", borderTop: "1px solid #a3a3a3", borderBottom: "1px solid #a3a3a3" }}>
       <div className="card-body">
-        <h5 className="card-title">Arla</h5>
+        <h5 className="card-title">{props.val.client3}</h5>
         <p className="card-text" style={{ fontSize: "24px"}}> 
-          Swipe to find your next holiday destination
+        {props.val.title3}
         </p>
         <Link className="link" to = "/"> &#9658; VIEW CASE</Link>
       </div>
