@@ -4,10 +4,9 @@ import "./style.css"
 
 function Case() {
   return (
-    <div>
+    <div className="topcase">
 
     {/* on mobile */}
-
     <div className="casemobile">
     <Link className="link" to = "/"> 
     <div className="card" style={{width: "100%", border:"none", borderRadius: "0px"}}>
@@ -24,7 +23,7 @@ function Case() {
 
 {/* on desktop */}
     <div className="casedesktop">
-    <div className="card" style={{width: "47%", border:"none", borderRadius: "0px"}}>
+    <div className="card" style={{width: "100%", border:"none", borderRadius: "0px"}}>
       <img src="/images/tui.png" className="card-img-top" alt="..." />
       <div className="card-body">
         <h5 className="card-title">Arla</h5>
@@ -35,6 +34,7 @@ function Case() {
       </div>
     </div>
     </div>
+
     </div>
   );
 }

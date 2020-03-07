@@ -1,5 +1,9 @@
-.card {
+.topcase{
   margin: 1.5%;
+  width: 47%;
+}
+
+.card {
   text-align: left;
 }
 
@@ -34,6 +38,11 @@
 
   .casemobile{
     display: initial;
+  }
+
+  .topcase{
+    margin: 0;
+    width: auto;
   }
 
   .card {

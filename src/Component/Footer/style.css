@@ -46,9 +46,17 @@
   margin-top: 2em;
 }
 
+.footerMobile {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   .footer {
     display: none;
+  }
+
+  .footerMobile {
+    display: initial;
   }
 
   .top {

@@ -8,6 +8,7 @@ function Clients(props) {
   return (
     <div>
 {/* on mobile */}
+<div className="clientsMobile">
 <div className="clients d-flex flex-column justify-content-sm-between align-items-center">
    <p className="clients-title">Clients</p>
    <div style={{width:"90%"}}>
@@ -22,6 +23,7 @@ function Clients(props) {
    })}
    </div>
    </div>
+</div>
 
 {/* on desktop */}
 <div className="clientsDesktop">

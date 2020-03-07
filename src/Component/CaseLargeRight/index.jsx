@@ -4,7 +4,7 @@ import "./style.css"
 
 function CaseLargeRight() {
   return (
-    <div>
+    <div className="topcaseright">
     {/* on mobile */}
     <div className="caseLargeMobileRight">
 
