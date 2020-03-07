@@ -1,10 +1,6 @@
 .navbar {
   border-bottom: 1px solid black;
-  margin: 0.5vw 4vw;
-}
-
-.navbar-toggler {
-  color: black;
+  margin: 0 4vw;
 }
 
 .content {
@@ -12,13 +8,38 @@
   height: 100%;
 }
 
+.menu{
+  margin: 0;
+  font-family:  "Teko", sans-serif;
+}
+
+.navbar-brand{
+font-family:  "Teko", sans-serif;
+padding: none;
+margin-bottom: -10px;
+}
+
+.navbar-toggler{
+  border: none;
+  outline: none;
+}
+
+
+
 .title {
-  font-size: 10vw;
+  font-size: 25vw;
   margin-left: 4vw;
   float: left;
+  font-family:  "Teko", sans-serif;
 }
 
 .hd {
+  color: white;
+  background-color: black;
+  padding: 0.7em 2em;
+  font-family: Arial;
+  font-size: 15px;
+  border: none;
   position: absolute;
   bottom: 10vw;
   right: 10vw;
@@ -30,13 +51,15 @@
 
 .nav-link {
   text-align: end;
+  color: black;
+  font-family:  "Teko", sans-serif;
 }
 
 .header {
   height: 100vh;
-  background-image: url("/images/florensis.png");
+  background-image: url("/images/header2.png");
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: center;
   background-size: cover;
 }
 

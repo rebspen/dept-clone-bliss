@@ -3,7 +3,7 @@ import "./style.css";
 
 function Quote() {
   return (
-    <div style={{ borderTop: "1px solid black" }}>
+    <div style={{ borderTop: "1px solid #a3a3a3" }}>
     <div className= "m-5">
       <p className="quote">
         "Dept helped us tell our story though a bold new identity amd a robust

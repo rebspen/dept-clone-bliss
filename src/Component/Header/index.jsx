@@ -5,9 +5,9 @@ import "./style.css";
 
 function Header(props) {
   return (
-    <div class="header">
+    <div class="header pt-1">
       <nav className="navbar bg-none navbar-light">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="#" style ={{fontSize: "40px"}}>
           DEPT
         </a>
         <button
@@ -16,6 +16,7 @@ function Header(props) {
           data-toggle="collapse"
           data-target="#collapsingNavbar"
         >
+        <p className="navbar-brand menu">menu</p>
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="navbar-collapse collapse z" id="collapsingNavbar">
@@ -27,12 +28,12 @@ function Header(props) {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="//codeply.com">
-                Codeply
+                xxxxx
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#myAlert" data-toggle="collapse">
-                Wow
+                xxxxx
               </a>
             </li>
           </ul>
@@ -44,7 +45,7 @@ function Header(props) {
                 data-target="#myModal"
                 data-toggle="modal"
               >
-                About
+                xxxxx
               </a>
             </li>
           </ul>
@@ -52,8 +53,8 @@ function Header(props) {
       </nav>
       <div className="content">
         <h1 className="title">WORK</h1>
-        <button type="button" className="btn btn-dark hd">
-          See Case
+        <button type="button" className="hd">
+          VIEW CASE
         </button>
       </div>
     </div>

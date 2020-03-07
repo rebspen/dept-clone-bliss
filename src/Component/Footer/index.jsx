@@ -16,15 +16,19 @@ function Footer() {
 <Link className="linkft">CONTACT</Link>
   </div>
   <br></br>
-<Link className="linkft">f</Link>
-<Link className="linkft">t</Link>
-<Link className="linkft">i</Link>
+  <div>
+<Link className="linkft"><img className="social" src = "images/facebook.png" /></Link>
+<Link className="linkft"><img className="social" src = "images/twitter.png" /></Link>
+<Link className="linkft"><img className="social" src = "images/instagram.png" /></Link>
+  </div>
 </div>
 <div className="bottom">
+
   <p>Chamber of Commerce: 63464101</p>
   <p>VAT: NL 8552.47.502.B01</p>
   <p>Terms and conditions</p>
-  <p>@ 2018 Dept Agency</p>
+
+  <p className="ml-5">@ 2018 Dept Agency</p>
 </div>
 
 </div>
