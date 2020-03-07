@@ -2,19 +2,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css"
 
-function Case() {
+function Case(props) {
+  console.log("props", props)
   return (
     <div className="topcase">
-
     {/* on mobile */}
     <div className="casemobile">
     <Link className="link" to = "/"> 
-    <div className="card" style={{width: "100%", border:"none", borderRadius: "0px"}}>
-      <img src="/images/tui.png" className="card-img-top" alt="..."  style ={{width: "100%"}}/>
+    <div className="card" style={{maxWidth: "100%", border:"none", borderRadius: "0px"}}>
+      <img src={props.val.image} className="card-img-top" alt="..."  style ={{width: "100%"}}/>
       <div className="card-body">
-        <h5 className="card-title">Arla</h5>
+        <h5 className="card-title">{props.val.client}</h5>
         <p className="card-text">
-          Swipe to find your next holiday destination
+        {props.val.title}
         </p>
       </div>
     </div>
@@ -23,12 +23,12 @@ function Case() {
 
 {/* on desktop */}
     <div className="casedesktop">
-    <div className="card" style={{width: "100%", border:"none", borderRadius: "0px"}}>
-      <img src="/images/tui.png" className="card-img-top" alt="..." />
+    <div className="card" style={{maxWidth: "100%", border:"none", borderRadius: "0px"}}>
+      <img src={props.val.image} className="card-img-top" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">Arla</h5>
+        <h5 className="card-title">{props.val.client}</h5>
         <p className="card-text">
-          Swipe to find your next holiday destination
+        {props.val.title}
         </p>
         <Link className="link" to = "/"> &#9658; VIEW CASE</Link>
       </div>

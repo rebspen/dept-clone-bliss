@@ -1,0 +1,67 @@
+[
+  {"client": "BOL.com",
+    "title": "A summer island in the Netherlands",
+    "image": "/images/bolcom.png"
+  },
+  {"client": "KEMPEN",
+    "title": "Not some average banking website",
+    "image": "/images/kempen.png"
+  },
+  {"client": "PHILIPS",
+    "title": "Beautiful design meets innovative technology",
+    "image": "/images/philips.png"
+  },
+  {"client": "GEMEENTEMUSEUM",
+    "title": "A 100 years of Mondriaan & De Stijl",
+    "image": "/images/gemeentemuseum.png"
+  },
+  {"client": "Florensis",
+    "title": "Rethinking the entire online ecosystem",
+    "image": "/images/florensis.png",
+    "client2": "MICROSOFT",
+    "title2":"Tapping into Ireland's unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
+    "client3":"O'NEILL",
+    "title3": "Integrating existing content into O'Neils new ecommerce platform"
+  },
+  {"client": "BE LIGHTING",
+    "title": "Delivering clarity on a global scale",
+    "image": "/images/lightning.png"
+  },
+  {"client": "TUI",
+    "title": "Swipe to find your next holiday destination",
+    "image": "/images/tui.png"
+  },
+  {"client": "Florensis",
+    "title": "Rethinking the entire online ecosystem",
+    "image": "/images/florensis.png",
+    "client2":"Butlins",
+    "title2": "Enhancing customer experience for personalised holiday planning using real time data",
+    "client3":"VACANSESELECT",
+    "title3": "Predicting booking behavior for holidays with smart data, voice search and machine learning."
+  },
+  {"client": "CHOCOMEL",
+    "title": "A campaign for the limited edition letter packs",
+    "image": "/images/chocomel.png"
+  },
+  {"client": "JBL",
+    "title": "Live like a champion with Jerome Booteng",
+    "image": "/images/jbl.png"
+  },
+  {"client": "ZALANDO",
+    "title": "Innovative SEO and content strategy for Zalando",
+    "image": "/images/zalando.png"
+  },
+  {"client": "KONINLIJKE BIBLOTHEEK",
+    "title": "The search for the most influential book ever",
+    "image": "/images/koninklijke-bibliotheek.png"
+  },
+  {"client": "LIBERTY GLOBAL",
+    "title": "Delivering complex commerce solutions",
+    "image": "/images/liberty-global.png"
+  },
+  {"client": "ARLA",
+    "title": "Swipe to find your next holiday destination",
+    "image": "/images/arla.png"
+  }
+
+]
