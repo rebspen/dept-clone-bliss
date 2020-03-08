@@ -3,9 +3,13 @@
   display: flex;
   flex-wrap: wrap;
 }
-.home{
+.menuAttribute{
   background-color: black;
   height: 200vh;
+}
+
+.home{
+  margin: 10vw;
 }
 
 .homeMenu{
@@ -16,7 +20,7 @@
   .homeMenu{
     width:90%;
   }
-  .home{
+  .menuAttribute{
     background-color: black;
     height: 110vh;
   }

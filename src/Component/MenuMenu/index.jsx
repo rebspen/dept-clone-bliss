@@ -2,11 +2,11 @@ import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
 
-function HomeMenu() {
+function MenuMenu() {
   return (
     <div>
       <ul className="menuNav">
-       <li className="menu-item ">HOME</li>
+       <li className="menu-item "><Link to="/" style={{ textDecoration: 'none', color: "white" }}>HOME</Link></li>
        <li className="menu-item"><Link to="/work" style={{ textDecoration: 'none', color: "white" }}>WERK</Link></li>
         <li className="menu-item">OVER</li>
         <li className="menu-item">DIENSTEN</li>
@@ -20,4 +20,4 @@ function HomeMenu() {
   );
 }
 
-export default HomeMenu;
+export default MenuMenu;

@@ -1,22 +1,11 @@
 import React from "react";
-import HomeTop from "../Component/HomeTop";
-import HomeSocial from "../Component/HomeSocial";
-import HomeCountries from "../Component/HomeCountries";
-import HomeMenu from "../Component/HomeMenu";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <div className="home">
-      <HomeTop />
-      <div className="d-flex flex-row">
-      <div className="d-flex flex-column justify-content-around" style={{ maxHeight:"100vh"}}>
-        <HomeCountries />
-        <HomeSocial />
-      </div>
-      <div className="homeMenu">
-        <HomeMenu />
-      </div>
-      </div>
+    <h1>Home sweet home ;)</h1>
+    <Link to="/work"> Demo work page </Link>
     </div>
   );
 }

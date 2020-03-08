@@ -10,14 +10,10 @@
   margin-left: 6vw;
 }
 
-.Nav-item:hover{
-
+.active{
   font-size: 2vw;
 }
 
-.Nav-item:active{
-  font-size: 2vw;
-}
 
 
 

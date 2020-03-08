@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState} from "react";
 import Header from "./../Component/Header";
 import Searchbar from "./../Component/Searchbar";
 import Case from "./../Component/Case";
@@ -8,14 +8,52 @@ import Quote from "../Component/Quote";
 import Clients from "../Component/Clients";
 import Contact from "../Component/Contact";
 import Footer from "../Component/Footer"
+import MenuTop from "../Component/MenuTop";
+import MenuSocial from "../Component/MenuSocial";
+import MenuCountries from "../Component/MenuCountries";
+import MenuMenu from "../Component/MenuMenu";
 import "./views.css";
 import cases from "./cases"
 
 function Work() {
-  console.log("here", cases)
+  let [menuView, setMenuView]= useState(false);
+
+  const operateMenu = () => {
+    if(!menuView){
+   
+      setMenuView(true)
+    } else {
+
+      setMenuView(false)
+    }
+  }
+ 
+
+
   return (
     <div>
-      <Header />
+
+    {/* menu appears */}
+    {menuView && 
+      <div className="menuAttribute">
+      <MenuTop operateMenu={operateMenu} />
+      <div className="d-flex flex-row">
+      <div className="d-flex flex-column justify-content-around" style={{ maxHeight:"100vh"}}>
+        <MenuCountries />
+        <MenuSocial />
+      </div>
+      <div className="homeMenu">
+        <MenuMenu />
+      </div>
+      </div>
+    </div>
+    }
+
+    {/* work page appears */}
+
+    {!menuView &&
+    <div>
+      <Header operateMenu={operateMenu} />
       <Searchbar />
       <div className="mainContent">
         <Case val= {cases[0]}/>
@@ -37,6 +75,8 @@ function Work() {
       <Clients />
       <Contact/>
       <Footer/>
+    </div>
+    }
     </div>
   );
 }

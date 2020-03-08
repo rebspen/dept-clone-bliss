@@ -11,6 +11,17 @@
   display: none;
 }
 
+.close{
+  font-size: 60px;
+  font-family: "Teko", sans-serif;
+  padding: 3vw 10vw;
+  text-decoration: none;
+}
+
+.close:active:hover{
+  text-decoration: none;
+}
+
 /* mobile styling */
 
 @media only screen and (max-width: 600px) {

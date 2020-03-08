@@ -8,18 +8,18 @@
   height: 100%;
 }
 
-.menu{
+.menu {
   margin: 0;
-  font-family:  "Teko", sans-serif;
+  font-family: "Teko", sans-serif;
 }
 
-.navbar-brand{
-font-family:  "Teko", sans-serif;
-padding: none;
-margin-bottom: -10px;
+.navbar-brand {
+  font-family: "Teko", sans-serif;
+  padding: none;
+  margin-bottom: -10px;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   border: none;
   outline: none;
 }
@@ -28,10 +28,11 @@ margin-bottom: -10px;
   font-size: 25vw;
   margin-left: 4vw;
   float: left;
-  font-family:  "Teko", sans-serif;
+  font-family: "Teko", sans-serif;
+  color: #000000;
 }
 
-.hd {
+/* .hd {
   color: white;
   background-color: #000000;
   padding: 0.7em 2em;
@@ -42,6 +43,15 @@ margin-bottom: -10px;
   position: absolute;
   bottom: 10vw;
   right: 10vw;
+} */
+
+.btntop {
+  color: white;
+  background-color: #000000;
+  padding: 0.7em 2em;
+  float: right;
+  border: none;
+  margin: -70px 10% 0 0;
 }
 
 .case {
@@ -51,7 +61,7 @@ margin-bottom: -10px;
 .nav-link {
   text-align: end;
   color: black;
-  font-family:  "Teko", sans-serif;
+  font-family: "Teko", sans-serif;
 }
 
 .header {
@@ -74,10 +84,26 @@ margin-bottom: -10px;
   margin: 0;
 }
 
+.toggle{
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.menuToggle{
+  border: none;
+  background: transparent;
+}
+
 /* mobile styling */
 
 @media only screen and (max-width: 600px) {
-  .header{
+  .header {
+    display: none;
+  }
+
+  .btntop {
     display: none;
   }
 
@@ -85,14 +111,14 @@ margin-bottom: -10px;
     display: initial;
   }
 
-  .title{
+  .title {
     font-size: 50vw;
     text-align: center;
     margin-top: 10%;
-    margin-left: -5px;
+    margin-left: 10vw;
   }
 
-  .content{
+  .content {
     height: 50vh;
     background-image: url("/images/florensis.png");
     background-repeat: no-repeat;
@@ -105,9 +131,7 @@ margin-bottom: -10px;
     border-bottom: none;
   }
 
-
 }
-
 
 .hdmobile {
   background-color: black;
@@ -116,4 +140,5 @@ margin-bottom: -10px;
   font-size: 15px;
   border: none;
   width: 90vw;
+  margin-left: 5vw;
 }

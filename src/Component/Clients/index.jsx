@@ -16,7 +16,6 @@ function Clients(props) {
    </div>
    <div className="logos">
    {client2.map((val)=>{
-     console.log(val)
      return <div className="card" style={{width:"38%"}}>
   <img src="/images/nivea_Tekengebied-1.png" className="card-img-top" alt="..."/>
 </div>
@@ -34,7 +33,6 @@ function Clients(props) {
    </div>
    <div className="logos">
    {clients.map((val)=>{
-     console.log(val)
      return <div className="card" style={{width:"19%"}}>
   <img src="/images/nivea_Tekengebied-1.png" className="card-img-top" alt="..."/>
 </div>

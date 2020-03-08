@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./style.css"
 
 function Case(props) {
-  console.log("props", props)
   return (
     <div className="topcase">
     {/* on mobile */}
@@ -30,7 +29,7 @@ function Case(props) {
         <p className="card-text">
         {props.val.title}
         </p>
-        <Link className="link" to = "/"> &#9658; VIEW CASE</Link>
+        <Link className="link" to = "/" style={{textDecoration:"none"}}> &#9658; VIEW CASE</Link>
       </div>
     </div>
     </div>

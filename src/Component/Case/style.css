@@ -1,4 +1,4 @@
-.topcase{
+.topcase {
   margin: 1.5%;
   width: 47%;
 }
@@ -16,31 +16,36 @@
 .card-text {
   color: #272727;
   font-size: 30px;
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
 }
 
-.link{
+.link {
   color: #1a18f7;
   font-family: Arial;
   font-size: 14px;
+  text-decoration: none;
 }
 
-.casemobile{
+.link:hover {
+  text-decoration: none;
+}
+
+.casemobile {
   display: none;
 }
 
 /* mobile styling */
 
 @media only screen and (max-width: 600px) {
-  .casedesktop{
+  .casedesktop {
     display: none;
   }
 
-  .casemobile{
+  .casemobile {
     display: initial;
   }
 
-  .topcase{
+  .topcase {
     margin: 0;
     width: auto;
   }
@@ -49,5 +54,4 @@
     margin: none;
     text-align: left;
   }
-
-}  
+}
