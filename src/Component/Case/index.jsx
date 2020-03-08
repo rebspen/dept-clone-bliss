@@ -8,7 +8,7 @@ function Case(props) {
     {/* on mobile */}
     <div className="casemobile">
     <Link className="link" to = "/"> 
-    <div className="card" style={{maxWidth: "100%", border:"none", borderRadius: "0px"}}>
+    <div className="card" style={{maxWidth: "100%", width: "100%", border:"none", borderRadius: "0px"}}>
       <img src={props.val.image} className="card-img-top" alt="..."  style ={{width: "100%"}}/>
       <div className="card-body">
         <h5 className="card-title">{props.val.client}</h5>

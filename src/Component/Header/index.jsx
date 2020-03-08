@@ -48,7 +48,7 @@ function Header(props) {
           <nav className="navbar bg-none navbar-light">
             <Link
               className="navbar-brand"
-              href="#"
+              to="/"
               style={{ fontSize: "40px" }}
             >
               DEPT
